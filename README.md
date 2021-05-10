@@ -1,3 +1,7 @@
+# News Scrapper
+
+News Scrapper is a chrome extension written in React which scraps top news website to show news articles to users in condensed form. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
