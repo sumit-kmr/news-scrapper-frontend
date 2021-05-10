@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background-color: #080c3c;
+  /* color: #269494; LEGACY COLOR SCHEME*/   
+  color: #5cdb95;
+  width: 350px;
+  height: 500px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-family: 'Roboto', sans-serif;
+  /* padding: 10px 10px 10px 10px; */
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}

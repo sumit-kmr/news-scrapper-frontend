@@ -1,0 +1,37 @@
+.Button {
+    background-color: rgb(38, 148, 148);
+    border: none;
+    color: rgb(190, 238, 240);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.Button:hover {
+    opacity: 0.5;
+}
+.Button:active {
+    background-color: blueviolet;
+    opacity: 1;
+    transition: 0s;
+}
+
+.active {
+    background-color: blueviolet;
+    border: none;
+    color: rgb(190, 238, 240);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 1;
+}

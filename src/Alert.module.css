@@ -1,0 +1,22 @@
+.success {
+    width: 80%;
+    height: 25px;
+    padding: 12px;
+    color: white;
+    background-color: #4ee44e;
+    text-align: center;
+    transition: 0.2s;
+    margin: 0px auto;
+    border-radius: 8px;
+}
+
+.error {
+    width: 80%;
+    height: 25px;
+    padding: 12px;
+    color: white;
+    background-color: #ff726f;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 8px;
+}

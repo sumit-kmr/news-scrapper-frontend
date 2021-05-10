@@ -1,0 +1,50 @@
+.table {
+    border-bottom: 1px solid ;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 350px;
+}
+
+.table:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title {
+    font-weight: 400;
+    color: white;
+    text-align: start;
+    margin-left: 8px;
+
+    text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; 
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.desc {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: darkgrey;
+    text-align: start;
+    margin-left: 8px;
+
+    text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; 
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.thumbnailContainer {
+    height: 80px;
+    width: 80px;
+}
+
+.thumbnail {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}

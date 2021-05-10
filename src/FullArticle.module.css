@@ -1,0 +1,33 @@
+.mainContainer {
+    font-family: 'Lato', sans-serif;
+    padding: 5px 8px 5px;
+    height: 100%;
+}
+
+.image {
+    width: 80%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.heading {
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+}
+
+.content {
+    font-weight: 300;
+    color: antiquewhite;
+    text-align: start;
+    text-justify: auto;
+    hyphens: auto;
+    font-size: 18px;
+}
+
+.end {
+    font-weight: 300;
+    font-size: large;
+    color: antiquewhite;
+}

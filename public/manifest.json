@@ -1,0 +1,18 @@
+{
+  "name": "News Scrapper",
+  "description": "Ad free news articles from top news websites",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "icons": {
+    "16": "ic_16.png",
+    "48": "ic_48.png",
+    "128": "ic_128.png"
+  }
+}
