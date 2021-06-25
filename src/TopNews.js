@@ -12,7 +12,7 @@ class TopNews extends Component {
     constructor(props) {
         super(props);
         const endPointLinks = props.categories.map(category => {
-            return 'http://ec2-18-224-95-122.us-east-2.compute.amazonaws.com/' + category.toLowerCase();
+            return 'http://34.93.183.57/' + category.toLowerCase();
         })
         this.state = {
             endPoints: endPointLinks,
